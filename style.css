@@ -1,0 +1,88 @@
+body {
+  background-color: #c0ebee;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+nav > ul > a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.covidContainer {
+  display: block;
+  border: 2px solid black;
+}
+
+.covidContainer h3 {
+  display: flex;
+  justify-content: center;
+}
+.welcomeContainer {
+  display: block;
+  justify-content: center;
+}
+.welcomeContainer h1,
+address {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.welcomeContainer img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.videoContainer {
+  display: block;
+}
+
+.videoContainer h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.videoContainer video {
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.adviceContainer {
+  display: block;
+  justify-content: center;
+}
+
+.adviceContainer form,
+h2 {
+  text-align: center;
+}
+
+.adviceContainer div * {
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.field legend {
+  margin-left: auto;
+  margin-right: auto;
+}
